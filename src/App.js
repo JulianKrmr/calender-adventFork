@@ -13,7 +13,7 @@ function App() {
     if(date.getMonth() === 9) { // Change to 11="December" for deploying
         let day = date.getDate();
         let k = 1;
-        while (k<=day){
+        while (k<=day && day < 25){
             array.push(k);
             k++;
         }
